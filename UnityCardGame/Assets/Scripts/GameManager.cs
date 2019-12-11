@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     #region KID
@@ -63,6 +63,9 @@ public class GameManager : MonoBehaviour
     private AudioSource aud;        // 音效來源：喇叭
 
 
+
+    public GameObject ButtonUI;
+    public Text WinOrLoseText;
     /// <summary>
     /// 勝負顯示：使用玩家與電腦取得卡片判斷獲勝、平手或失敗
     /// 玩家卡片編號：player
@@ -71,7 +74,24 @@ public class GameManager : MonoBehaviour
     /// </summary>
     private void GameWinner()
     {
-        
+        ButtonUI.SetActive(true);
+        if (player > pc)
+        {
+            WinOrLoseText.text = "你淫了";
+        }
+        else if(player == pc)
+        {
+            WinOrLoseText.text = "你倆交和了...";
+        }
+        else if (player < pc)
+        {
+            WinOrLoseText.text = "你酥了";
+        }
+    }
+
+    public void ResetGame()
+    {
+        SceneManager.LoadScene("練習場景");
     }
     #endregion
 }
