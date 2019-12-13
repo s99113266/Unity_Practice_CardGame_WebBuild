@@ -4,7 +4,6 @@ ScriptsOnlyBuild:
     - GameManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -46,21 +45,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9674}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 9822}
+      Script: {instanceID: 9824}
     - Class: 114
-      Script: {instanceID: 9862}
+      Script: {instanceID: 9864}
     - Class: 114
-      Script: {instanceID: 10230}
+      Script: {instanceID: 10232}
     - Class: 114
-      Script: {instanceID: 10568}
+      Script: {instanceID: 10570}
     - Class: 114
-      Script: {instanceID: 10944}
+      Script: {instanceID: 10946}
     - Class: 114
-      Script: {instanceID: 11010}
+      Script: {instanceID: 11012}
     - Class: 114
-      Script: {instanceID: 11350}
+      Script: {instanceID: 11352}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
