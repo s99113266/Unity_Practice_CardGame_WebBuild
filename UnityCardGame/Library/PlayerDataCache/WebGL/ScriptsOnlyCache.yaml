@@ -2,12 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - GameManager
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -58,15 +52,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9862}
     - Class: 114
-      Script: {instanceID: 10228}
+      Script: {instanceID: 10230}
     - Class: 114
-      Script: {instanceID: 10562}
+      Script: {instanceID: 10568}
     - Class: 114
-      Script: {instanceID: 10938}
+      Script: {instanceID: 10944}
     - Class: 114
-      Script: {instanceID: 11004}
+      Script: {instanceID: 11010}
     - Class: 114
-      Script: {instanceID: 11344}
+      Script: {instanceID: 11350}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -372,7 +366,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: bfadfc6cad14a6be81ee3e99d0aebb88
+      Hash: 5036da22575cac346a5607e51672882c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -505,4 +499,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - "Assets/\u7DF4\u7FD2\u5834\u666F.unity"
-  playerPath: C:/KID/Projects/Unity/Unity_Practice_CardGame_WebBuild/Web
+  playerPath: "C:/Users/s9911/Desktop/\u4F5C\u696D6/Web"

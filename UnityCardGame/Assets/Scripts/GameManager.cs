@@ -77,14 +77,17 @@ public class GameManager : MonoBehaviour
         ButtonUI.SetActive(true);
         if (player > pc)
         {
+            aud.PlayOneShot(soundWin,1f);
             WinOrLoseText.text = "你淫了";
         }
         else if(player == pc)
         {
+            aud.PlayOneShot(soundTie,1f);
             WinOrLoseText.text = "你倆交和了...";
         }
         else if (player < pc)
         {
+            aud.PlayOneShot(soundLose, 1f);
             WinOrLoseText.text = "你酥了";
         }
     }
